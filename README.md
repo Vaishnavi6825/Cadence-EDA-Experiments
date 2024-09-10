@@ -9,7 +9,9 @@ To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse
 • Cadence Virtuoso Software
 
 `S C H E M A T I C S I M U L A T I O N `
-PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+
+PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
+`Commands to get into Cadence`
 
 -Right Click and open the terminal window
 
@@ -27,6 +29,11 @@ ii. Create Schematic Cell view.
 iii. Create the Symbol for schematic Cell view.
 iv. Create the test Cell view.
 v. Analog simulation by spectre
+
+`SYMBOL`
+
+![WhatsApp Image 2024-09-05 at 20 55 51_3587152b](https://github.com/user-attachments/assets/7ff96a52-8b43-4fe6-8648-33ab74a5d074)
+
 
 i) Procedure for Creating New Library. 
 • File –New – Library • Name: Give name for ur library Ex: VLSILAB_EXP_1
@@ -48,7 +55,11 @@ iii) Creating the Symbol for schematic Cell view
 • Check for the position of pin side.Prss OK 
 • Edit for the shape by Create-Shape-Choose required options to edit.
 
-image
+![WhatsApp Image 2024-09-05 at 21 34 55_dfd95452](https://github.com/user-attachments/assets/cddb1aea-dc45-42e5-b7b8-fba003961309)
+
+![WhatsApp Image 2024-09-05 at 21 34 16_7da1de01](https://github.com/user-attachments/assets/44ef5925-af2f-42e9-a0b7-5a48f8f6e821)
+
+
 
 iv) Creating the new test cell view
 
@@ -60,17 +71,21 @@ Analog simulation by SPECTRE.
 • In test cell view window 
 • Launch – ADE L(Analog Design Environment)  Execute Setup—Simulation/directory/Host A new window opens  Set the simulation window to spectre and click ok  Execute Analysis – Choose. A window opens.  Select the type and set the specifications and press OK  Execute Output s—to be plotted – Select on Schematic  Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse • Execute Simulation -- Net list and Run image
 
-For Transient Analysis Settings and Output
+`For Transient Analysis Settings and Output`
 
-image
+![WhatsApp Image 2024-09-05 at 21 23 54_76eeaeb7](https://github.com/user-attachments/assets/162f6dff-0933-4d8a-9efb-fd1b881bfc1b)
 
-image
 
-For DC Analysis Settings and Output image
+`For DC Analysis Settings and Output image`
 
-image
+![WhatsApp Image 2024-09-05 at 21 30 20_4b67cb3f](https://github.com/user-attachments/assets/a1eee438-5f2e-49d9-bd7f-eff463bc0317)
 
-Results:
+
+
+`Results:`
+
+![WhatsApp Image 2024-09-05 at 21 35 24_5ed28a73](https://github.com/user-attachments/assets/ab64d9a3-aa0e-4ba1-aad3-086b61ec15ce)
+
 
 Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 The simulation results demonstrated the correct logic operation of the inverter, where the output voltage switches between high (Vdd) and low (0V) levels, corresponding to the input voltage transitions.
